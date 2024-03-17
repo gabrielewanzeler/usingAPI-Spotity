@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Spotify Artist Search</title>
+
+</head>
+<header class="header-container">
+    <div class="header-content">
+            <h1 class="main-title">Buscar álbuns ou músicas pelo Spotify</h1>
+            <img src= "wp9894908.jpg" alt="Logo Spotify"/>
+    </div>
+</header>
+<body>
+    <div class="container">
+        <h1>Pesquisar por Artista do Spotify</h1>
+        <div class="search-for-user-form">
+            <input type="text"
+                id="artistInput"
+                placeholder="Buscar por nome de um (a) artista">
+            <button id="searchButton">BUSCAR</button>
+        </div>
+    </div>
+        <div id="artistResults"></div>
+        <h2 class="topSongsHeader hide">Top músicas</h2>
+        <h2 class="topSongsHeader2 hide">Todos os álbuns e últimos lançamentos</h2>
+    <div id="albumResults"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
